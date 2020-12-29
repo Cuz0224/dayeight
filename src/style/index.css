@@ -1,0 +1,41 @@
+.body-left{
+    float: left;
+    border: black;
+    margin-top:15px ;
+    margin-left: 40px;
+    width: 70%;   
+}
+
+.left-header{
+    background-color: rgb(226, 226, 226);
+    height: 35px;
+    padding-top: 15px;
+}
+
+#left-nav{
+    display: flex;
+    list-style: none;
+}
+
+#left-nav li:hover{
+    background: none;
+    border-bottom: 3px solid rgb(140, 192, 35);
+}
+
+.left-li{
+    list-style: none;
+    margin-right: 25px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgb(140, 192, 35);
+}
+
+#left-li01{
+    margin-left: -20px;
+}
+
+.leftInner{
+    height: 800px;
+    background-color: white;
+
+}

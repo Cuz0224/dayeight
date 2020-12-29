@@ -1,0 +1,87 @@
+.body-right{
+    float: right;
+    background-color: rgb(207, 207, 207);
+    border: black;
+    margin-top:1px ;
+    margin-right: 10px;
+    width: 25%;
+}
+
+#signin{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+
+}
+
+#signin-button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(68, 192, 223);
+}
+
+#question{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+#question-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#rank{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+#rank-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#society{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+#society-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#code{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+#code-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover{
+    color: rgb(0, 22, 218);
+}

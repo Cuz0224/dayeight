@@ -1,0 +1,52 @@
+.Home-header{
+    width: 100%;
+    display: flex;
+    min-width: 1300px;
+    justify-content: space-between;
+    background-color: rgb(87, 87, 87);
+    position: relative;
+}
+
+.header-logo{
+    height: 40px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.header-input{
+    height: 25px;
+    width: 200px;
+    margin: auto;
+}
+
+.header-search{
+    display: flex;
+    margin-right: 600px;
+}
+
+.header-button{
+    height: 25px;
+    margin:auto;
+    margin-left: 5px;
+}
+
+.header-nav{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    margin-right: 30px;
+}
+
+
+.nav-li{
+    margin-left: 20px;
+    color: white;
+}
+
+
+#span{
+    margin: auto;
+    margin-left: 30px;
+    font-size: xx-large;
+    color: white;
+}

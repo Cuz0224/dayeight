@@ -1,0 +1,161 @@
+.Home-header{
+    width: 100%;
+    display: flex;
+    min-width: 1300px;
+    justify-content: space-between;
+    background-color: rgb(87, 87, 87);
+}
+
+.header-logo{
+    height: 40px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.header-input{
+    height: 20px;
+    width: 200px;
+    margin: auto;
+}
+
+.header-search{
+    display: flex;
+    margin-right: 200px;
+}
+
+.header-button{
+    height: 25px;
+    margin:auto;
+    margin-left: 5px;
+}
+
+.header-nav{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-li{
+    margin-left: 20px;
+    color: white;
+}
+
+.Home-body{
+    width: 100%;
+    display: flex;
+    background-color: rgb(207, 207, 207);
+}
+
+.body-left{
+    border: black;
+    margin-top:30px ;
+    margin-left: 60px;
+    width: 70%;
+    background-color: teal;
+    
+}
+
+.left-header{
+    background-color: rgb(226, 226, 226);
+    height: 35px;
+    padding-top: 1px;
+}
+
+#left-nav{
+    display: flex;
+    list-style: none;
+}
+
+.left-li{
+    margin-right: 25px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgb(140, 192, 35);
+}
+
+#left-li01{
+    margin-left: -20px;
+}
+
+.body-right{
+    background-color: rgb(207, 207, 207);
+    border: black;
+    margin-top:30px ;
+    margin-right: 60px;
+    margin-left: 20px;
+    width: 30%;
+}
+
+#signin{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: white;
+
+}
+
+#signin-button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(68, 192, 223);
+}
+
+#question{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+#question-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#rank{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+#rank-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#society{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+#society-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#code{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+#code-header{
+    background-color: rgb(226, 226, 226);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
