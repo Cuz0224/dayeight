@@ -18,28 +18,22 @@ class IndexList extends React.Component{
         
         
         this.state={
-            dataMap:''
+            dataMap:'',
+            detailData:''
         }
         
     }
 
-    formatTimeStamp(day){
-        var date = new Date();
-        var y = date.getFullYear();
-        var m = date.getMonth()+1;
-        var d = date.getDate();
-        var timeStamp = new Date(y+'/'+m+'/'+d);
-        if(day){
-          if(day==1){
-            return timeStamp.getTime()-1000*60*60*24+1000*60*60*24-1;
-          }else{
-            return timeStamp.getTime()-1000*60*60*24*day-1;
-          }
-    
-        }else{
-          return timeStamp.getTime()
-        }
+    handledDetailClick(id){
+        axios.get(`https://cnodejs.org/api/v1/topic/${id}`).then(res=>{
+            this.props.history.push('/detail')
+            console.log(res);
+            this.setState({
+                detailData:res.data.data
+            })
+        })
       }
+
 
     componentDidMount(){
         axios.get('https://cnodejs.org/api/v1/topics').then(res=>{
@@ -53,15 +47,12 @@ class IndexList extends React.Component{
        
     };
 
-      handledDetailClick(id){
-        axios.get(`https://cnodejs.org/api/v1/topic/${id}`).then(res=>{
-            this.props.history.push('/detail')
-            console.log(res)
-        })
-      }
+      
 
+      
 
     render() {
+        console.log(this.state.detailData);
         console.log(this.state.dataMap);
         return (
             <div className="list">
@@ -99,11 +90,6 @@ class IndexList extends React.Component{
     
     }
 }
-export default withRouter(IndexList)
-     // axios.get("https://cnodejs.org/api/v1/topics").then(function(response){
-        //     console.log(response.data);
-        //     var data = response.data.data;
-        //     console.log(data.title);
-        //     var dataMap = data.map((item)=>{<li>{item.author}</li>});
-        //     });
+export default withRouter(IndexList);
+
         
