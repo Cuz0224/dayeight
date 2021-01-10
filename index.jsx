@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import data from "./data"
 import '../../style/index.css';
 import IndexList from "./list";
+import RightSide from '../rightside'
 
 export default class Index extends React.Component{
     render(){
         console.log(data.data)
         return (
+            <div id="wrap">
                 <div className = 'body-left'>
                     <div className = 'left-header'>
                         <ul id = 'left-nav'>
@@ -23,6 +25,9 @@ export default class Index extends React.Component{
                         <IndexList />
                     </div>
                 </div>
+                <RightSide />
+            </div>
+                
         )
     }
 }
